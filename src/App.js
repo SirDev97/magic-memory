@@ -50,8 +50,6 @@ function App() {
     }
   }, [choiceOne, choiceTwo]);
 
-  console.log(cards);
-
   const resetTurn = () => {
     setChoiceOne(null);
     setChoiceTwo(null);
