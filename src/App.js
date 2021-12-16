@@ -1,7 +1,13 @@
+// styles
 import './App.css';
+
+// react hooks
 import { useEffect, useState } from 'react';
+
+// components
 import SingleCard from './components/SingleCard';
 
+// cards array
 const cardImages = [
   {
     src: 'https://github.com/SirDev97/magic-memory/blob/main/public/img/helmet-1.png?raw=true',
