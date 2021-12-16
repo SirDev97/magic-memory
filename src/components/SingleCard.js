@@ -11,7 +11,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
         <img className="front" src={card.src} alt="card front" />
         <img
           className="back"
-          src={process.env.PUBLIC_URL + '/img/cover.png'}
+          src="https://github.com/SirDev97/magic-memory/blob/main/public/img/cover.png?raw=true"
           onClick={handleClick}
           alt="card back"
         />

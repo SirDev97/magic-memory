@@ -3,12 +3,30 @@ import { useEffect, useState } from 'react';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  { src: process.env.PUBLIC_URL + '/img/helmet-1.png', matched: false },
-  { src: process.env.PUBLIC_URL + '/img/potion-1.png', matched: false },
-  { src: process.env.PUBLIC_URL + '/img/ring-1.png', matched: false },
-  { src: process.env.PUBLIC_URL + '/img/scroll-1.png', matched: false },
-  { src: process.env.PUBLIC_URL + '/img/shield-1.png', matched: false },
-  { src: process.env.PUBLIC_URL + '/img/sword-1.png', matched: false },
+  {
+    src: 'https://github.com/SirDev97/magic-memory/blob/main/public/img/helmet-1.png?raw=true',
+    matched: false,
+  },
+  {
+    src: 'https://github.com/SirDev97/magic-memory/blob/main/public/img/potion-1.png?raw=true',
+    matched: false,
+  },
+  {
+    src: 'https://github.com/SirDev97/magic-memory/blob/main/public/img/ring-1.png?raw=true',
+    matched: false,
+  },
+  {
+    src: 'https://github.com/SirDev97/magic-memory/blob/main/public/img/scroll-1.png?raw=true',
+    matched: false,
+  },
+  {
+    src: 'https://github.com/SirDev97/magic-memory/blob/main/public/img/shield-1.png?raw=true',
+    matched: false,
+  },
+  {
+    src: 'https://github.com/SirDev97/magic-memory/blob/main/public/img/sword-1.png?raw=true',
+    matched: false,
+  },
 ];
 
 function App() {
