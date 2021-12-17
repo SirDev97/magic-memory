@@ -25,3 +25,6 @@
 4. run `code .` to open your code editor.
 
 5. Feel free to customize and add on.
+
+### Preview:
+  - https://sirdev97.github.io/magic-memory/
