@@ -1,5 +1,7 @@
 # Magic Memory Game
 
+Guessing game
+
 ### What is Magic Memory?
 
 - This is a project used to help me get a better understanding of using react hooks and passing props to components.
